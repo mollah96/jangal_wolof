@@ -15,7 +15,7 @@ class _DetailLeebuScreenState extends State<DetailLeebuScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.amber,
       body: Stack(
         children: [
           Container(

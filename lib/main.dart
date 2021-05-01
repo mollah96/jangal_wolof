@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:jangal_wolof/homeScreen.dart';
-import 'package:jangal_wolof/widgets/bottomNavBar.dart';
 
 void main() {
   runApp(MyApp());

@@ -24,6 +24,7 @@ class _LeebuPageState extends State<LeebuPage> {
                   Align(
                     alignment: Alignment.topCenter,
                     child: Container(
+                      margin: EdgeInsets.symmetric(horizontal: 20),
                       padding: EdgeInsets.only(top: 70, bottom: 10),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -59,7 +60,7 @@ class _LeebuPageState extends State<LeebuPage> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => DetailLeebuScreen(
-                                          text: '',
+                                          text: leebu[index].text,
                                         )));
                           },
                           child: Container(
